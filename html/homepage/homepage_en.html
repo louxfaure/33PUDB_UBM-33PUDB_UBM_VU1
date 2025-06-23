@@ -1,0 +1,110 @@
+<div id="accueil">
+  <md-content layout-xs="column" id="accueil_content" layout="row" layout-align="center center" class="_md md-primoExplore-theme layout-xs-column layout-row">
+    <div flex="40" flex-xs="100" layout="column" class="layout-column flex-40">
+      <md-card class="default-card _md md-primoExplore-theme graphic">
+        <md-card-content>
+          <img src="custom/33PUDB_UBM-33PUDB_UBM_VU1/img/visuel_types_docs_en.png"  width="100%">
+        </md-card-content>
+      </md-card>
+    </div>
+    <div flex="60" flex-xs="100" layout="column" class="layout-column flex-60">
+      <md-card class="default-card _md md-primoExplore-theme first-card">
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">Babord+</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          <p>
+            Babord+ allows users to see many types of resources from the libraries of the Universities of Bordeaux.<br>
+          </p>
+          <p>
+            To complete your search, think about our <a href="http://scd.u-bordeaux-montaigne.fr/contenus/tout" aria-hidden="false">database list</a>.
+          </p>
+        </md-card-content>
+      </md-card> 
+      <md-card class="default-card _md md-primoExplore-theme">
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="1em" height="1em" style="margin-right:0.5em"><path fill="#002f54" d="M8 0a8 8 0 1 0 8 8 8 8 0 0 0-8-8Zm4.46 10.93h-1.28a2.62 2.62 0 0 1-2.62-2.62V5.07h1.53v3.24a1.09 1.09 0 0 0 1.09 1.09h1.28Zm-4.46 0H6.76a2.62 2.62 0 0 1-2.63-2.62V5.07h1.54v3.24A1.09 1.09 0 0 0 6.76 9.4H8Z"></path></svg>Unlock access to academic papers</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          <div>
+            <p style="">With <a href="https://www.u-bordeaux-montaigne.fr/fr/documentation/informations-pratiques/lean-library.html">Lean Library</a> you now have the ability to easily find study materials wherever and whenever you decide to study.</p>
+            <p>
+              <a type="button" role="button" class="apply-font preview-button" href="http://ubxm.fr/leganto2clics" target="_blank" rel="noopener noreferrer" style="color:#FFFFFF;padding:10px;border-radius:12px;background:#002F54;border:1px solid #002f54;text-decoration:none;display:inline-block;width:100%; text-align: center;">Embed the library in your browser</a>
+            </p>
+          </div>
+        </md-card-content>
+      </md-card> 
+    </div>
+    
+
+  </md-content>
+  <md-content layout-xs="column" layout="row"  id="onglets" class="_md md-primoExplore-theme layout-xs-column layout-row">
+    <div flex="100" layout="column" class="layout-column flex-100">
+
+      <md-card class="default-card _md md-primoExplore-theme">
+        <div ng-cloak>
+          <md-content>
+            <md-tabs md-dynamic-height md-border-bottom>
+              <md-tab label="Why sign in">
+                <md-content class="md-padding">
+                  <h1 class="md-display-2"><span class="raisons">5 reasons to <prm-authentication [is-logged-in]="$ctrl.userName().length > 0" [idp-logout]="$ctrl.idpLogout" flex="none" class="flex-none"><!----><button class="button-with-icon zero-margin md-button md-primoExplore-theme md-ink-ripple" type="button" ng-transclude="" ng-if="!$ctrl.isLoggedInIDP()" ng-click="$ctrl.handleLogin();" aria-label="S’identifier"><prm-icon icon-type="svg" svg-icon-set="primo-ui" icon-definition="sign-in"><!----><md-icon ng-if="!$ctrl.isCustom" md-svg-icon="primo-ui:sign-in" alt="" class="md-primoExplore-theme" aria-hidden="true"><svg id="sign-in_cache14" width="100%" height="100%" viewBox="0 0 24 24" y="192" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                    <path d="M10,17.25V14H3V10H10V6.75L15.25,12L10,17.25M8,2H17A2,2 0 0,1 19,4V20A2,2 0 0,1 17,22H8A2,2 0 0,1 6,20V16H8V20H17V4H8V8H6V4A2,2 0 0,1 8,2Z"></path>
+                  </svg></md-icon><!----><!----><prm-icon-after parent-ctrl="$ctrl"></prm-icon-after></prm-icon><span translate="eshelf.signin.title">sign in</span><div class="md-ripple-container" style=""></div></button><!----><!----><prm-authentication-after parent-ctrl="$ctrl"></prm-authentication-after></prm-authentication></span></h1>
+                  <ol class="steps">  
+                    <li>Request a resource.</li>
+                    <li>Enable your off-campus access to licensed e-resources.</li>
+                    <li><a href="../../primo-explore/favorites?vid=33PUDB_UBM_VU1&section=queries&lang=fr_FR" aria-label="Sauvegarder ses recherches" aria-hidden="false">Save your searches.</a></li>
+                    <li><a href="../../primo-explore/account?vid=33PUDB_UBM_VU1&section=overview&lang=fr_FR" aria-label="Accéder à son compte lecteur" aria-hidden="false">View your library account and renew items.</a></li>
+                    <li>Request digitization of a public-domain document.</li>
+                  </ol>
+                </md-content>
+              </md-tab>
+              <md-tab label="Search advices">
+                <md-content class="md-padding"> 
+
+                  <h2>Search advices</h2>
+                  <p class="astuces">
+                    When searching Babord+ the following operators can help to narrow or broaden your search :<br>
+                    <span class="entete">*</span> (truncation) enter an asterisk * at the end of a word to perform a multiple character wildcard search. <br> <span class="exemple">Ex : educat* (educate, educator, education,etc.).</span><br>
+                    <span class="entete">"..."</span> to search for an exact phrase type quotation marks around the phrase.<br> <span class="exemple">Ex : "carbon nanotube" .</span><br>
+                  </p>    
+                  <h2>Did you know ?</h2> 
+                  <p class="astuces">                           
+                    <span class="entete"></span>Think about locking <md-icon ng-if="!$ctrl.isCustom" md-svg-icon="primo-ui:persistent" alt="" class="md-primoExplore-theme" aria-hidden="true"></md-icon>your filters to keep on using them with your next searches.<br>
+                    <span class="entete"></span>Filters can include or exclude results.<br>
+                  </p>
+                </md-content>
+              </md-tab>
+              <md-tab label="Tutorials (in French)">
+                <md-content class="md-padding">
+                  <div layout="row" layout-xs="column" layout-sm="column" layout-align="center">
+                    <div layout-align="center" style='text-align:center'>
+                      <iframe src="//podcast.u-bordeaux-montaigne.fr/widget/trouver-un-document-babord" class="libcast_player" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                      <br/>Find a document<br/>(3 min 39 s)
+                    </div>
+
+                    <div layout-align="center" style='text-align:center'>
+                      <iframe src="//podcast.u-bordeaux-montaigne.fr/widget/affichage-detaille-dune-notice" class="libcast_player" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                      <br/>Detailed view<br/>(2 min 24 s)
+                    </div>
+
+                    <div layout-align="center" style='text-align:center'>
+                      <iframe src="//podcast.u-bordeaux-montaigne.fr/widget/astuce-pour-preciser-sa-recherche" class="libcast_player" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                      <br/>Search tips<br/>(3 min 04 s)
+                    </div>
+                  </div>
+
+                </md-content>
+              </md-tab>
+            </md-tabs>
+          </md-content>
+        </div>
+      </md-card>
+    </div>
+  </md-content>
+
+</div>

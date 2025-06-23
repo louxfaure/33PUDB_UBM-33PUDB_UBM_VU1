@@ -1,0 +1,25 @@
+prm-atoz-search-bar{
+    background-color: #ffffff;
+}
+
+.classic-input .search-scope{
+    background-color: $primaryUniversityPurple;
+    border-color:$primaryUniversityPurple;
+    color:#fff;
+}
+prm-alphabet-toolbar .md-button{
+    color:#443a31;
+}
+
+prm-alphabet-toolbar .md-button:hover {
+    background-color: #443a31 !important;
+  color:#ffffff;
+}
+prm-alphabet-toolbar .md-button.active{
+  background-color: $primaryUniversityPurple !important;
+  color:#ffffff;
+}
+
+.search-elements-wrapper {
+	border-color:red;
+}

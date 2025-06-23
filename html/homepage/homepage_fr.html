@@ -1,0 +1,107 @@
+<div id="accueil">
+  <md-content layout-xs="column" id="accueil_content" layout="row" layout-align="center center" class="_md md-primoExplore-theme layout-xs-column layout-row">
+    <div flex="40" flex-xs="100" layout="column" class="layout-column flex-40">
+      <md-card class="default-card _md md-primoExplore-theme graphic">
+        <md-card-content>
+          <img src="custom/33PUDB_UBM-33PUDB_UBM_VU1/img/visuel_types_docs.png"  width="100%">
+        </md-card-content>
+      </md-card>
+    </div>
+    <div flex="60" flex-xs="100" layout="column" class="layout-column flex-60">
+      <md-card class="default-card _md md-primoExplore-theme first-card">
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">Babord+</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          <p>
+            Un point d'accès unique à toute la documentation des bibliothèques universitaires de Bordeaux.
+          </p>
+          <p>
+            Pour compléter votre recherche, il est conseillé de consulter les <a href="http://scd.u-bordeaux-montaigne.fr/contenus/tout" aria-label="bases de données documentaires" aria-hidden="false">bases de données documentaires</a> (voir aussi <a href="https://www.u-bordeaux-montaigne.fr/fr/documentation/informations-pratiques/perimetre-de-recherche-babord.html">périmètre de recherche Babord+</a>).
+          </p>
+        </md-card-content>
+      </md-card> 
+      <md-card class="default-card _md md-primoExplore-theme">
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="1em" height="1em" style="margin-right:0.5em"><path fill="#002f54" d="M8 0a8 8 0 1 0 8 8 8 8 0 0 0-8-8Zm4.46 10.93h-1.28a2.62 2.62 0 0 1-2.62-2.62V5.07h1.53v3.24a1.09 1.09 0 0 0 1.09 1.09h1.28Zm-4.46 0H6.76a2.62 2.62 0 0 1-2.63-2.62V5.07h1.54v3.24A1.09 1.09 0 0 0 6.76 9.4H8Z"></path></svg>Lean Library</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          <div>
+            <p style="">Pour bénéficier de l'ensemble des abonnements de l'université quel que soit le site que vous visitez, pensez à installer <a href="https://www.u-bordeaux-montaigne.fr/fr/documentation/informations-pratiques/lean-library.html">l'extension Lean Library</a>.</p>
+            <p>
+              <a type="button" role="button" class="apply-font preview-button" href="http://ubxm.fr/leganto2clics" target="_blank" rel="noopener noreferrer" style="color:#FFFFFF;padding:10px;border-radius:12px;background:#002F54;border:1px solid #002f54;text-decoration:none;display:inline-block;width:100%; text-align: center;">Cliquez ici pour configurer votre navigateur en 2 clics</a>
+            </p>
+          </div>
+        </md-card-content>
+      </md-card> 
+      
+    </div>
+  </md-content>
+  <md-content layout-xs="column" layout="row"  id="onglets" class="_md md-primoExplore-theme layout-xs-column layout-row">
+    <div flex="100" layout="column" class="layout-column flex-100">
+
+      <md-card class="default-card _md md-primoExplore-theme">
+        <div ng-cloak>
+          <md-content>
+            <md-tabs md-dynamic-height md-border-bottom>
+              <md-tab label="Pourquoi s'identifier">
+                <md-content class="md-padding">
+                  <h1 class="md-display-2"><span class="raisons">5 raisons de <prm-authentication [is-logged-in]="$ctrl.userName().length > 0" [idp-logout]="$ctrl.idpLogout" flex="none" class="flex-none"><!----><button class="button-with-icon zero-margin md-button md-primoExplore-theme md-ink-ripple" type="button" ng-transclude="" ng-if="!$ctrl.isLoggedInIDP()" ng-click="$ctrl.handleLogin();" aria-label="S’identifier"><prm-icon icon-type="svg" svg-icon-set="primo-ui" icon-definition="sign-in"><!----><md-icon ng-if="!$ctrl.isCustom" md-svg-icon="primo-ui:sign-in" alt="" class="md-primoExplore-theme" aria-hidden="true"><svg id="sign-in_cache14" width="100%" height="100%" viewBox="0 0 24 24" y="192" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+                    <path d="M10,17.25V14H3V10H10V6.75L15.25,12L10,17.25M8,2H17A2,2 0 0,1 19,4V20A2,2 0 0,1 17,22H8A2,2 0 0,1 6,20V16H8V20H17V4H8V8H6V4A2,2 0 0,1 8,2Z"></path>
+                  </svg></md-icon><!----><!----><prm-icon-after parent-ctrl="$ctrl"></prm-icon-after></prm-icon><span translate="eshelf.signin.title">s’identifier</span><div class="md-ripple-container" style=""></div></button><!----><!----><prm-authentication-after parent-ctrl="$ctrl"></prm-authentication-after></prm-authentication></span></h1>
+                  <ol class="steps">  
+                    <li><a href="https://www.u-bordeaux-montaigne.fr/fr/documentation/informations-pratiques/demander-des-documents-bu-a-emporter.html">Demander un document en accès indirect</a> (retrait à l'accueil de la bibliothèque)</li>
+                    <li>Accéder aux ressources en ligne en un clic sur le campus et depuis chez vous</li>
+                    <li><a href="../../primo-explore/favorites?vid=33PUDB_UBM_VU1&section=queries&lang=fr_FR" aria-label="Sauvegarder ses recherches" aria-hidden="false">Sauvegarder ses recherches</a></li>
+                    <li><a href="../../primo-explore/account?vid=33PUDB_UBM_VU1&section=overview&lang=fr_FR" aria-label="Accéder à son compte lecteur" aria-hidden="false">Accéder à son compte lecteur et prolonger un emprunt</a></li>
+                    <li><a href="https://www.u-bordeaux-montaigne.fr/fr/documentation/informations-pratiques/numerisation-a-la-demande.html">Faire une demande de numérisation pour les documents libres de droits</a></li>
+                  </ol>
+                </md-content>
+              </md-tab>
+              <md-tab label="Conseils de recherche">
+                <md-content class="md-padding"> 
+
+                  <h2>Conseils de recherche</h2>
+                  <p class="astuces">
+                    Afin d'optimiser votre recherche, il est conseillé d'utiliser les éléments ci-dessous :<br>
+                    <span class="entete">*</span> (troncature) pour rechercher sur tous les mots ayant la même racine ou la même terminaison. <br> <span class="exemple">Ex : histo* recherche "histoire", "histoires", "history" et "historien".</span><br>
+                    <span class="entete">"..."</span> pour rechercher sur l’expression exacte et non sur chacun des mots.<br> <span class="exemple">Ex : "économie sociale et solidaire" recherchera l’association des trois termes (l’expression exacte).</span><br>
+                  </p>    
+                  <h2>Le saviez-vous ?</h2> 
+                  <p class="astuces">                           
+                    <span class="entete"></span>Pensez à verrouiller <md-icon ng-if="!$ctrl.isCustom" md-svg-icon="primo-ui:persistent" alt="" class="md-primoExplore-theme" aria-hidden="true"></md-icon>vos filtres pour faire des recherches successives sans avoir à sélectionner vos filtres à chaque recherche.<br>
+                    <span class="entete"></span>Les filtres peuvent être utilisés pour inclure mais aussi pour exclure.<br>
+                  </p>
+                </md-content>
+              </md-tab>
+              <md-tab label="Tutoriels en vidéo">
+                <md-content class="md-padding">
+                  <div layout="row" layout-xs="column" layout-sm="column" layout-align="center">
+                    <div layout-align="center" style='text-align:center'>
+                      <iframe src="https://pod.u-bordeaux-montaigne.fr/video/1687-trouver-un-document-b/6f22aca9f66b4f120e42c1d00ffc005b40606c8b791b5dc41e6dd5ca49fc31f7/?is_iframe=true" class="libcast_player" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                      <br/>Trouver un document<br/>(2 min 44 s)
+                    </div>
+
+                    <div layout-align="center" style='text-align:center'>
+                      <iframe src="https://pod.u-bordeaux-montaigne.fr/video/1685-affichage-detaille-notice-b/6d75b616a3fb9f380489b090a276e3b3af773741d0b878c15ddf5363a3b3b4e7/?is_iframe=true" class="libcast_player" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                      <br/>Affichage détaillée d'une notice<br/>(2 min 35 s)
+                    </div>
+
+                    <div layout-align="center" style='text-align:center'>
+                      <iframe src="https://pod.u-bordeaux-montaigne.fr/video/1686-astuces-pour-preciser-sa-recherche/1048fc5d65ece15933a801b924e633b227d21b7a6b77db6733af1e9691fe620c/?is_iframe=true" class="libcast_player" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                      <br/>Astuces pour préciser sa recherche<br/>(3 min 33 s)
+                    </div>
+                  </div>
+                </md-content>
+              </md-tab>
+            </md-tabs>
+          </md-content>
+        </div>
+      </md-card>
+    </div>
+  </md-content>
+</div>

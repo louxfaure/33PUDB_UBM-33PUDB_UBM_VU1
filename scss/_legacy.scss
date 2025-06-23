@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/* générique */
+/*ecran login */
+
+/*couleur lien*/
+md-dialog.light-on-dark-dialog md-list md-list-item .md-list-item-text .list-item-title, md-dialog.light-on-dark-dialog md-list md-list-item .md-list-item-text h3{
+    color: $primaryUniversityPurple;
+}
+/*fonds*/
+.background-dark md-backdrop.md-opaque{
+    opacity: .9;
+}
+md-backdrop.md-opaque{
+    background-color: #443a31;
+}
+
+md-content.md-primoExplore-theme{
+    background-color: #f7f7f7;
+}
+
+md-dialog.light-on-dark-dialog md-list md-list-item .md-list-item-text p
+{
+    color: #443a31;
+}
+
+
+.light-on-dark-dialog md-input-container label:not(.md-no-float):not(._md-container-ignore) {
+  color:#443a31;
+}
+
+md-dialog.light-on-dark-dialog md-input-container .md-input {
+  border-color:#443a31;
+}
+
+md-dialog.light-on-dark-dialog md-input-container .md-input, md-dialog.light-on-dark-dialog md-input-container.md-input-focused .md-input, md-dialog.light-on-dark-dialog md-input-container.md-input-focused:not(.md-input-invalid) .md-input, md-dialog.light-on-dark-dialog md-input-container.md-input-focused:not(.md-input-invalid) input, md-dialog.light-on-dark-dialog md-input-container.md-input-focused:not(.md-input-invalid) label, md-dialog.light-on-dark-dialog md-input-container.md-input-focused input, md-dialog.light-on-dark-dialog md-input-container.md-input-focused label, md-dialog.light-on-dark-dialog md-input-container.md-input-has-value .md-input, md-dialog.light-on-dark-dialog md-input-container.md-input-has-value input, md-dialog.light-on-dark-dialog md-input-container.md-input-has-value label, md-dialog.light-on-dark-dialog md-input-container input, md-dialog.light-on-dark-dialog md-input-container label {
+  color:#443a31;
+}
+
+
+
+/* Retrait du bouton edit sur la page des modifications personnelles */
+#personal_settings-focus {
+	display:none;
+}
+
+
+/* taille des menu barre navigation */
+/*
+prm-main-menu[menu-type="menu"] .md-button {
+
+    padding: 0 .75em;
+    max-width: 15em;
+    font-size: .75em;
+
+}
+*/
+
+/* barre de recherche */
+
+prm-icon:not(.disabledFavTool) md-icon.md-primoExplore-theme {
+     color:$primaryUniversityPurple !important;;
+}
+
+prm-icon.disabledFavTool md-icon.md-primoExplore-theme {
+  color:rgb(170, 170, 170);
+}
+
+#changUserStatus{
+	color :#443a31;
+}
+prm-user-area .user-menu-button .user-name {
+	color :$primaryUniversityPurple;
+}
+
+
+prm-search-bar{
+	background-color: white;
+    color:#443a31;
+}
+.switch-to-advanced {
+    color:#443a31 !important;
+}
+
+
+.__gt-xs prm-search-bar .search-elements-wrapper.simple-mode .simple-search-wrapper {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.md-button.button-confirm, .md-button.button-confirm:hover{
+	color: $primaryUniversityPurple;
+}
+
+/* resultats */
+md-content, md-content.md-primoExplore-theme {
+	background-color: #f9f9f9;
+	/*background: linear-gradient(135deg, rgb(233, 233, 233) 0%,rgb(248, 248, 248) 100%);	*/
+}
+.text-highlight, mark {
+	box-shadow: inset 0 1em 0 1em rgba(231,116,72,0.5);
+}
+prm-brief-result-container .list-item-primary-content{
+    background-color:#f9f9f9;
+}
+
+/* bandeau alerte */
+.bar.alert-bar {
+    background-color : #f7f7f7;
+    border-color : #e8e8e8;
+}
+.bar prm-authentication .md-button {
+    color : #009ed0;
+}
+
+/* facettes */
+/*effacement titre facettes*/
+prm-facet h2[translate="nui.facets.title"]{
+    display: none;
+}
+
+.available-facets button h3 {
+    color: #009ed0;
+}
+prm-facet .sidebar-title {
+    color: $primaryUniversityPurple;
+    font-size: 1.8em;
+    font-weight:normal;
+
+}
+.multiselect-submit .multiselect-submit-inner .md-button.md-primary, .multiselect-submit .multiselect-submit-inner .md-button.md-primary:hover  {
+    background-color: $primaryUniversityPurple;
+}
+
+/* notice complète */
+.full-view-inner-container, .prm-full-view-dialog{
+    background-color: #f9f9f9;
+}
+
+
+/*Change top bar from up.case to low.case and for buttons etc journal*/
+body, prm-topbar .md-button, .md-button {
+  text-transform: none; }
+
+/* On fixe une taille min du brief result*/
+prm-full-view prm-brief-result-container{
+  min-height: 180px;
+}
+
+#details h4, #details div.section-head{
+  display:none;
+}
+
+/* home */
+.help1{
+	background-color: #443a31 !important;
+	color:#ada299;
+}
+.help1 a{
+	color: #009ed0;
+}
+.help1 .md-headline {
+	color:white;
+	font-style: italic;
+}
+md-card.default-card {
+    background-color: #f6f6f6;
+}

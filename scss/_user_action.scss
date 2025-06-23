@@ -1,0 +1,17 @@
+/* Everything related to user account and user actions */
+
+/* Correction d'un problème sur les lignes qui se superposent dans */
+/* l'affichage des coordonnées du lecteur */
+prm-personal-info .underlined-input.md-primoExplore-theme.md-input-has-value.layout-column {
+	margin-top:1em;
+}
+
+/* zone avec les logos pour l'authentification inter institutions */
+#REBUB-Authentification-Ext {
+  background-color: white;
+}
+
+/* Recherche avancée > Date spécifique */
+input[name=startYear]::placeholder, input[name=endYear]::placeholder {
+	color:rgb(58, 58, 58);
+}

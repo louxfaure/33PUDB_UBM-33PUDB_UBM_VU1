@@ -1,0 +1,91 @@
+/* bandeau */
+
+/* barre de navigation */
+prm-topbar{
+    height:80px;
+}
+
+
+.top-nav-bar{
+	background-color: white !important;
+    color:#443a31 !important;
+
+}
+.top-nav-bar a{
+    color:#443a31 !important;
+}
+
+.buttons-group .md-button {
+	box-shadow: 1px 0 0 0 rgba(158, 31, 99, 0.5);
+}
+
+.buttons-group .md-button:first-child {
+	box-shadow: 1px 0 0 0 rgba(158, 31, 99,0.5),-1px 0 0 0 rgba(158, 31, 99, 0.5);
+}
+.sign-in-btn-ctm,.button-with-menu-arrow {
+  color : #443a31 !important;
+}
+.menu-arrow{
+  color: $primaryUniversityPurple !important;
+}
+prm-user-area-expandable .md-button.user-button {
+
+    color: $primaryUniversityPurple;
+
+}
+/* bandeau hover */
+prm-user-area md-fab-toolbar.md-is-open md-fab-trigger ._md-fab-toolbar-background {
+    background-color: #e7e7e7 !important;
+    color : #443a31;
+}
+
+prm-user-area md-fab-toolbar .md-fab-action-item .md-button, prm-user-area md-fab-toolbar .md-fab-action-item md-input-container, prm-user-area md-fab-toolbar .md-fab-action-item md-input-container md-select{
+	color : #443a31;
+}
+
+/* taille trait orange sous menu */
+prm-main-menu[menu-type="menu"] {
+    flex : 1 1 80% !important;
+    max-width: 80% !important;
+}
+
+prm-main-menu[menu-type="full"] .md-button .md-headline {
+	color:$primaryUniversityPurple;
+}
+
+.layout-xs-column .md-button, prm-main-menu[menu-type="full"] {
+  color:#443a31;
+}
+
+prm-main-menu[menu-type="full"] .md-button .md-subhead {
+	display:none;
+}
+
+div.main-menu-button:nth-child(1) > a:nth-child(1) > span:nth-child(2)
+
+.top-nav-bar-links{
+    border-bottom:3px solid;
+    border-bottom-color:$primaryUniversityPurple;
+}
+prm-logo .md-primoExplore-theme{
+	box-shadow: none !important;
+}
+
+/* compte lecteur */
+prm-account>md-toolbar.default-toolbar, prm-account>md-toolbar.default-toolbar:not(.md-menu-toolbar), prm-account>md-toolbar.md-primoExplore-theme.default-toolbar {
+  background-color: #f9f9f9;
+}
+
+md-dialog.light-on-dark-dialog md-list md-list-item .md-list-item-text .list-item-title, md-dialog.light-on-dark-dialog md-list md-list-item .md-list-item-text h3, 
+md-dialog.light-on-dark-dialog md-list md-list-item.list-login .md-button, md-dialog.light-on-dark-dialog md-list md-list-item.list-login .md-button:hover:not([disabled]) {
+    color: $primaryUniversityPurple;
+}
+
+md-dialog-content .disable-hover .md-button:hover, md-dialog-content .disable-hover button:hover, md-dialog-content .disable-hover .md-button:focus, md-dialog-content .disable-hover button:focus {
+  box-shadow: unset;
+}
+
+/* Filtres sous la barre de recherche */
+.resource-type-option div {
+  color: purple;
+}

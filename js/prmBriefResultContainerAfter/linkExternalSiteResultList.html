@@ -1,0 +1,34 @@
+<!-- <span ng-bind="mycounter"></span> -->
+<div id="externalSiteList" ng-show="$ctrl.showExternalSiteList && !$ctrl.parentCtrl.searchInProgress">
+  <md-card class="default-card _md md-primoExplore-theme">
+    <md-card-title>
+      <md-card-title-text>
+        <span class="md-headline">{{ $ctrl.titleText }}</span>
+      </md-card-title-text>
+    </md-card-title>
+    
+    <md-card-content>
+      {{ $ctrl.contentText }}
+      <div layout="row" layout-align="center">
+        <a href='http://www.sudoc.abes.fr/cbs/DB=2.1/SET=1/TTL=1/CMD?ACT=SRCHA&IKT=1016&SRT=RLV&TRM={{ queryTerm }}' title='Relancer la recherche sur le sudoc'>
+          <img src='custom/33PUDB_UBM-33PUDB_UBM_VU1/img/logo_sudoc.png'/>
+        </a>
+        <a href='https://isidore.science/s?q={{ queryTerm }}'  title='Relancer la recherche sur ISIDORE'>
+          <img src='custom/33PUDB_UBM-33PUDB_UBM_VU1/img/logo_isidore.png'/>
+        </a>
+        <a href='https://mediatheques.bordeaux-metropole.fr/osiros/result/resultat.php?type_rech=rs&index%5B%5D=fulltext&bool%5B%5D=&value%5B%5D={{ queryTerm }}&op=Ok&spec_expand=1'  title='Relancer la recherche dans les médiathèques de Bordeaux métropole'>
+          <img src='custom/33PUDB_UBM-33PUDB_UBM_VU1/img/rebond_metropole.png'/>
+        </a>
+      </div>
+    </md-card-content>
+
+    <div class="button-wrapper">
+      <button class="dismiss-alert-button zero-margin md-button md-primoExplore-theme md-ink-ripple button-with-icon" ng-click="$ctrl.externalSearchMsgOnClick()">
+        <prm-icon icon-type="svg" svg-icon-set="navigation" icon-definition="ic_close_24px">
+          <md-icon md-svg-icon="navigation:ic_close_24px" alt="" class="md-primoExplore-theme" aria-hidden="true"></md-icon>
+        </prm-icon>
+        NE PLUS AFFICHER CE MESSAGE
+      </button>
+    </div>
+  </md-card>
+</div>

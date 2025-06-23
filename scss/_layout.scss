@@ -1,0 +1,30 @@
+/* Ajout d'une bordure violette autour des zones de recherche */
+.__gt-xs prm-atoz-search-bar .search-elements-wrapper.simple-mode .simple-search-wrapper,
+.__gt-xs prm-browse-search-bar .search-elements-wrapper.simple-mode .simple-search-wrapper,
+.__gt-xs prm-newspapers-search-bar .search-elements-wrapper.simple-mode .simple-search-wrapper,
+.__gt-xs prm-search-bar .search-elements-wrapper.simple-mode .simple-search-wrapper,
+.__gt-xs prm-tags-search-bar .search-elements-wrapper.simple-mode .simple-search-wrapper,
+.default-shadow-on-dark,
+prm-alphabet-toolbar .md-button.active,
+prm-alphabet-toolbar .md-button.active.md-focused,
+prm-alphabet-toolbar .md-button.active:focus,
+prm-alphabet-toolbar .md-button.active:hover,
+prm-atoz-search-bar .classic-input,
+prm-browse-search-bar .classic-input,
+prm-newspapers-search-bar .classic-input,
+prm-tags-search-bar .classic-input 
+{
+	border:1px solid $primaryUniversityPurple;
+}
+
+
+html {
+	color : #443a31;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+    color: #443a31;
+    background-color: #f9f9f9;
+}
+
