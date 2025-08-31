@@ -148,3 +148,43 @@ prm-banner-card-content {
         }
     }
 }
+/* Bannière été 2025 */
+prm-resource-recommender span.banner-display-name{
+    display: none;
+  }
+  
+  prm-resource-recommender span.banner-description{
+    white-space: pre-line !important;
+    padding: 0 0 !important; 
+  }
+  prm-banner-card-content .banner-content md-icon.md-primoExplore-theme{
+    color: white !important;
+  }
+  prm-banner-card-content .banner-content .url-text {
+    height: auto;
+    width: auto;
+    max-width: 115px;
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+    padding: 5px 10px; /* Ajuste la taille du bouton */
+    color: white;
+    background-color: rgb(139, 31, 90); /* Couleur de fond */
+    border-radius: 25px; /* Bords arrondis */
+    text-align: center;
+    font-size: 14px; /* Taille de texte par défaut */
+    transition: all 0.3s ease; /* Transition fluide pour les effets */
+    cursor: pointer; /* Curseur pointeur pour indiquer un bouton cliquable */
+  }
+  
+  prm-banner-card-content .banner-content .url-text:hover {
+    font-size: 16px; /* Légère augmentation de la taille du texte */
+    transform: scale(1.05); /* Légère mise en avant du bouton */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre au survol */
+  }
+  
+  .__gt-sm prm-banner-card-content a:hover span, .__gt-sm prm-banner-card-content a:focus span, .__gt-sm prm-banner-card-content div:hover span, .__gt-sm prm-banner-card-content div:focus span {
+    color: #fff;
+    background-color: #8b1f5a;
+    padding: 0 0px;
+  }
